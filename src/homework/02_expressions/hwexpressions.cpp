@@ -10,8 +10,7 @@ int add_numbers(int num1, int num2)
 
 double get_sales_tax_amount(double meal_amount)
 {
-	double tax_rate;
-	tax_rate = .0675; 
+	double constexpr  tax_rate = .0675;
 	return tax_rate * meal_amount;
 
 }

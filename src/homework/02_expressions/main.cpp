@@ -36,14 +36,14 @@ int main()
 
 
 	//This calculates the sum of all costs and sets it into the total variable
-	total = tip_amount + tax_amount + meal_amount;
+	total = meal_amount + tax_amount + tip_amount;
 
 
 	//This will output the receipt
-	cout << "Meal Amount:\t" << meal_amount << endl;
-    cout << "Sales Tax:\t" << tax_amount << endl;
-    cout << "Tip Amount:\t" << tip_amount << endl;
-    cout << "Total:\t\t" << total;
+	cout << "Meal Amount:\t " << meal_amount << endl;
+    cout << "Sales Tax:\t " << tax_amount << endl;
+    cout << "Tip Amount:\t " << tip_amount << endl;
+    cout << "Total:\t\t " << total;
 
 
 	return 0;
