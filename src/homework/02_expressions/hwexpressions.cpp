@@ -1,4 +1,3 @@
-#include "expressions.h"
 #include "hwexpressions.h"
 
 //example
@@ -9,19 +8,10 @@ int add_numbers(int num1, int num2)
 
 //write function code here
 
- multiply tax_rate and meal_amount 
- return their product
-
-
-meal_amount and tip_rate, return their 
-                   product
-
-
-
 double get_sales_tax_amount(double meal_amount)
 {
-	int tax_rate;
-	tax_rate = 
+	double tax_rate;
+	tax_rate = .0675; 
 	return tax_rate * meal_amount;
 
 }
