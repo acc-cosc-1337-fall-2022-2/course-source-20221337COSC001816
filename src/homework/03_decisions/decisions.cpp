@@ -34,7 +34,7 @@ string get_letter_grade_using_if(int grade)
     }
     else
     {
-        theLetterGrade = "The Grade is out of the range of 0-100"
+        theLetterGrade = "The Grade is out of the range of 0-100";
     }
 
 
