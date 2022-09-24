@@ -1,9 +1,9 @@
 //write include statements
 #include<iostream>
 #include<string>
-using namepsace std;
-#include "decisions.h"
 
+#include "decisions.h"
+using namepsace std;
 
 int main() 
 {
