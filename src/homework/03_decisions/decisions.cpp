@@ -1,6 +1,7 @@
 //write include statement for decisions header
 #include "decisions.h"
 #include <string>
+using namespace std;
 
 //Write code for function(s) code here
 
@@ -20,15 +21,15 @@ string get_letter_grade_using_if(int grade)
     {
         theLetterGrade = "D";
     }
-    else if(grade <= 69 && grade >= 60)
+    else if(grade <= 79 && grade >= 70)
     {
         theLetterGrade = "C";
     }
-    else if(grade <= 69 && grade >= 60)
+    else if(grade <= 89 && grade >= 80)
     {
         theLetterGrade = "B";
     }
-    else if(grade <= 69 && grade >= 60)
+    else if(grade <= 100 && grade >= 90)
     {
         theLetterGrade = "A";
     }
@@ -52,7 +53,7 @@ string get_letter_grade_using_switch(int grade)
 
 
 
-    return 0;
+    return theLetterGrade;
 
 
 }
