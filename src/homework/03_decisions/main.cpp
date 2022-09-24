@@ -3,7 +3,7 @@
 #include<string>
 
 #include "decisions.h"
-using namepsace std;
+//using namepsace std;
 
 int main() 
 {
