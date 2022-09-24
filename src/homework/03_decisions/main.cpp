@@ -19,12 +19,14 @@ int main()
 	cout << "Enter a numerical grade 0-100: ";
 	cin >> userInputNumberOne;
 	letterGradeOutputOne = get_letter_grade_using_if(int userInputNumberOne)
-
+	cout << "Your letter grade is: "<< letterGradeOutputOne << endl;
 
 
 	cout << "Enter a second numerical grade 0-100: ";
 	cin >> userInputNumberTwo;
-	letterGradeOutputTwo = get_letter_grade_using_switch(int userInputNumberTwo)
+	letterGradeOutputTwo = get_letter_grade_using_switch(int userInputNumberTwo);
+	cout << "Your second letter grade is: "<< letterGradeOutputTwo << endl;
+	
 
 
 

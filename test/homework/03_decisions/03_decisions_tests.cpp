@@ -8,7 +8,7 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 
 
-TEST_CASE("Test Get Sales Tax") 
+TEST_CASE("Get Letter Grade Using If") 
 {
 	REQUIRE(get_letter_grade_using_if(95) == "A");
 	REQUIRE(get_letter_grade_using_if(85) == "B");
@@ -19,7 +19,7 @@ TEST_CASE("Test Get Sales Tax")
 }
 
 
-TEST_CASE("Test Get Tip Amount") 
+TEST_CASE("Get Letter Grade Using Switch") 
 {
 	REQUIRE(get_letter_grade_using_switch(95) == "A");
 	REQUIRE(get_letter_grade_using_switch(85) == "B");
