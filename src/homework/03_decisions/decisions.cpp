@@ -39,9 +39,6 @@ string get_letter_grade_using_if(int grade)
     }
 
 
-
-
-
     return theLetterGrade;
 
 }
@@ -51,16 +48,46 @@ string get_letter_grade_using_switch(int grade)
 {
     string theLetterGrade = " ";
 
+    switch(grade)
+    {
+        case 0 ... 9:
+            theLetterGrade = "F";
+            break;
+        case 10 ... 19:
+            theLetterGrade = "F";
+            break;
+        case 20 ... 29:
+            theLetterGrade = "F";
+            break;
+        case 30 ... 39:
+            theLetterGrade = "F";
+            break;
+        case 40 ... 49:
+            theLetterGrade = "F";
+            break;
+        case 51 ... 59:
+            theLetterGrade = "F";
+            break;
+        case 60 ... 69:
+            theLetterGrade = "D";
+            break;
+        case 70 ... 79:
+            theLetterGrade = "C";
+            break;
+        case 80 ... 89:
+            theLetterGrade = "B";
+            break;
+        case 90 ... 100:
+            theLetterGrade = "A";
+            break;
 
+        default:
+            theLetterGrade = "The Grade is out of the range of 0-100";
+
+    }
 
     return theLetterGrade;
 
 
 }
-
-
-
-
-
-
 
