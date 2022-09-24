@@ -18,7 +18,7 @@ int main()
 
 	cout << "Enter a numerical grade 0-100: ";
 	cin >> userInputNumberOne;
-	letterGradeOutputOne = get_letter_grade_using_if(int userInputNumberOne)
+	letterGradeOutputOne = get_letter_grade_using_if(int userInputNumberOne);
 	cout << "Your letter grade is: "<< letterGradeOutputOne << endl;
 
 
