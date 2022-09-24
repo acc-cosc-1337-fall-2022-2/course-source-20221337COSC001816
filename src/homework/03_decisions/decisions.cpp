@@ -1,7 +1,7 @@
 //write include statement for decisions header
 #include "decisions.h"
 #include <string>
-//using namespace std;
+using namespace std;
 
 //Write code for function(s) code here
 
