@@ -1,5 +1,6 @@
 //write include required statements
 #include<string>
+using namespace std;
 
 //Write a function(s) prototype  here
 
