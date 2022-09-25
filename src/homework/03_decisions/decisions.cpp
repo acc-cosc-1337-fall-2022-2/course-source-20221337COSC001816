@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-
+//This function uses if statements to test the range in which the users input falls
 string get_letter_grade_using_if(int grade)
 {
     string theLetterGrade = " ";
@@ -15,7 +15,6 @@ string get_letter_grade_using_if(int grade)
     if(grade <= 59 && grade >= 0)
     {
         theLetterGrade = "F";
-
     }
     else if(grade <= 69 && grade >= 60)
     {
@@ -39,11 +38,14 @@ string get_letter_grade_using_if(int grade)
     }
 
 
+
     return theLetterGrade;
 
 }
 
 
+
+//This function uses a switch statement to test the range in which the users input falls
 string get_letter_grade_using_switch(int grade)
 {
     string theLetterGrade = " ";
@@ -80,14 +82,12 @@ string get_letter_grade_using_switch(int grade)
         case 90 ... 100:
             theLetterGrade = "A";
             break;
-
         default:
             theLetterGrade = "The Grade is out of the range of 0-100";
 
     }
 
     return theLetterGrade;
-
 
 }
 
