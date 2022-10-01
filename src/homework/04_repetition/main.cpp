@@ -1,6 +1,10 @@
 //write include statements
+#include<iostream>
+#include<string>
+#include "dna.h"
 
 //write using statements
+using namespace std;
 
 
 /*
@@ -12,5 +16,21 @@ user enters a y or Y.
 */
 int main() 
 {
+	int userMainMenuInput;
+
+	cout << "1-Factorial\n2-Greatest Common Divisor\n3-Exit\n"
+	cin >> userMainMenuInput
+
+
+
+
+
+
+
+
+
+
+
+
 	return 0;
 }

@@ -1,4 +1,6 @@
 //add include statements
+#include<string>
+using namespace std;
 
 /*
 Write prototype for function(s)
