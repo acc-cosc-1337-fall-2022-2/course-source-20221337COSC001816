@@ -13,4 +13,4 @@ int factorial(int num);//Receive the 1 int parameter named num, return an intege
 
 
 //write function prototype for an int value-return function named gcd that accepts two int parameters.
-int gcf(int param1, int param2);//Receive the 2 int parameter, return an integer.
+int gcd(int param1, int param2);//Receive the 2 int parameter, return an integer.
