@@ -18,8 +18,8 @@ int main()
 {
 	int userMainMenuInput;
 
-	cout << "1-Factorial\n2-Greatest Common Divisor\n3-Exit\n"
-	cin >> userMainMenuInput
+	cout << "1-Factorial\n2-Greatest Common Divisor\n3-Exit\n";
+	cin >> userMainMenuInput;
 
 
 
