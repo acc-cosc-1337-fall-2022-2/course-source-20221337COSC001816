@@ -20,7 +20,7 @@ int main()
 
 	int userFactorialInput;
 	int userGCDInputOne;
-	int userGDCInputTwo;
+	int userGCDInputTwo;
 
 	int factorialOutput;
 	int gcdOutput;
