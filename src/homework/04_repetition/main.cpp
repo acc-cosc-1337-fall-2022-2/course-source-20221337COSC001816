@@ -48,7 +48,7 @@ int main()
 			case 2:
 				cout<< "Enter two integers for the greatest common divisor" << endl;
 				cin >> userGCDInputOne;
-				cin >> userGDCInputTwo;
+				cin >> userGCDInputTwo;
 				gcdOutput = gcd(userGCDInputOne, userGCDInputTwo);
 				cout << gcdOutput;
 				break;
