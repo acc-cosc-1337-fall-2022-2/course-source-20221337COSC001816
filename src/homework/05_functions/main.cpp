@@ -7,6 +7,18 @@ and display them to screen.
 Program continues until user decides to exit.
 
 */
+
+
+
+
+#include<iostream>
+#include<string>
+#include "func.h"
+using namespace std;
+
+
+
+
 int main() 
 {
 
