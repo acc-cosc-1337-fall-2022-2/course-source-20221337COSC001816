@@ -22,5 +22,20 @@ using namespace std;
 int main() 
 {
 
+
+	string userDNAString;
+
+
+	cout << "Enter your DNA String: " << endl;
+	cin >> userDNAString;
+
+
+
+
+
+
+
+
+
 	return 0;
 }

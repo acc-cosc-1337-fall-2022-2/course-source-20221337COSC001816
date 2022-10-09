@@ -1,7 +1,7 @@
 //add include statements
 #include <string>
 using namespace std;
-
+#include "func.h"
 
 //add function code here
 
@@ -13,6 +13,13 @@ using namespace std;
 double get_gc_content(const string& dna)
 {
 
+
+    double dnaString = 0.0;
+
+
+
+
+    return 0;
 }
 
 
@@ -21,6 +28,8 @@ double get_gc_content(const string& dna)
 string get_reverse_string(string dna)
 {
 
+
+    return 0;
 }
 
 
@@ -28,9 +37,9 @@ string get_reverse_string(string dna)
 
 
 
-string get_dna_complement(string dna)\
+string get_dna_complement(string dna)
 {
 
 
-
+    return 0;
 }
