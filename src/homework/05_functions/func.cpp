@@ -5,10 +5,6 @@ using namespace std;
 
 //add function code here
 
-#include<iostream>
-
-
-
 
 double get_gc_content(const string& dna)
 {

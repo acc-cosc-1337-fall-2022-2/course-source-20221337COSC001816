@@ -7,10 +7,6 @@ and display them to screen.
 Program continues until user decides to exit.
 
 */
-
-
-
-
 #include<iostream>
 #include<string>
 #include "func.h"
@@ -67,7 +63,6 @@ int main()
 			default:
 				cout << "Invalid Input!" << endl;
 				break;
-
 		}
 
 	}while(userExitChoice != "y");
