@@ -50,14 +50,14 @@ int main()
 		{
 			case 1:
 				outputFromGGC = get_gc_content(userDNAString);
-				cout << outputFromGGC << endl;
+				cout << "DNA GC Conent:" << outputFromGGC << endl;
 				break;
 			case 2:
 				outputFromGRS = get_dna_complement(userDNAString);
-				cout<< outputFromGRS << endl;
+				cout<< "DNA Complement: " << outputFromGRS << endl;
 				break;
 			case 3:
-				cout << "Are you sure you want to exit? (y/n):" << endl << endl;
+				cout << "Are you sure you want to exit? (y/n):" << endl;
 				cin >> userExitChoice;
 				break;
 			default:
