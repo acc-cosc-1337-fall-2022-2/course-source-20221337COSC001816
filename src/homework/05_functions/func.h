@@ -1,5 +1,6 @@
 //add function(s) prototype here
 #include<string>
+using namespace std;
 
 
 double get_gc_content(const string& dna);
